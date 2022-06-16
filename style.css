@@ -70,6 +70,6 @@ body {
 }
 
 .result p {
-  font-size: calc(16 / 16 * 1rem);
+  font-size: calc(16.5 / 16 * 1rem);
   color: var(--dark-gray);
 }
