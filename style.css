@@ -39,7 +39,7 @@ body {
 
 .box button {
   padding: 15px 0;
-  width: 25%;
+  width: 90px;
   background-color: var(--main-color);
   border: none;
   outline: none;
@@ -72,4 +72,17 @@ body {
 .result p {
   font-size: calc(16.5 / 16 * 1rem);
   color: var(--dark-gray);
+}
+
+@media only screen and (max-width: 520px) {
+  .box {
+    margin: 20px 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box h1 {
+    margin-bottom: 10px;
+  }
 }
