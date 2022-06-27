@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #d5b0ff;
+  --main-color-dark: #a16cde;
   --gray: #8c8c8c;
   --dark-gray: #333;
   --white: #ffffff;
@@ -72,6 +73,22 @@ body {
 .result p {
   font-size: calc(16.5 / 16 * 1rem);
   color: var(--dark-gray);
+}
+
+footer {
+  color: var(--main-color-dark);
+  margin-top: 95vh;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--main-color-dark);
+  border-bottom: 1px #a16cde solid;
+}
+
+footer a:hover {
+  border-bottom: 3px #a16cde solid;
 }
 
 @media only screen and (max-width: 520px) {
